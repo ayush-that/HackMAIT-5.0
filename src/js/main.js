@@ -4,3 +4,8 @@ document
     event.preventDefault();
     window.location.href = "/src/home.html";
   });
+
+// Initialization for ES Users
+import { Carousel, initTWE } from "tw-elements";
+
+initTWE({ Carousel });
